@@ -6,4 +6,3 @@ mkdir ~/spotdl
 for n in `cat /tmp/spotdl-tmp.txt`; do
   spotdl -f ~/spotdl -s $n  #downloadSongs
 done
-
